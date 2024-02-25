@@ -1,0 +1,29 @@
+:root {
+  --main-color-green: #008000;
+  --main-color-brown: #a0522d;
+  --secondary-color-yellow: #EEDA00;
+  --main-background-color: #2f4f4f;
+  --main-text-color: #FFFFFF;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background-color: var(--main-background-color) !important;
+}
+
+
+
+.video-bg {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  min-width: 100% !important;
+  min-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  z-index: -1 !important;
+  transform: translateX(-50%) translateY(-50%) !important;
+}

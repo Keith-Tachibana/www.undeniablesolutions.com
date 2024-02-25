@@ -1,0 +1,80 @@
+.paddingStyle {
+  padding: 1em;
+}
+
+.dividerStyle {
+  width: 100%;
+  margin-bottom: 2em;
+}
+
+.headerStyle1 {
+  height: 100px;
+  color: var(--main-color-green);
+  font-size: 7em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.headerStyle2 {
+  height: 100px;
+  color: var(--main-color-brown);
+  font-size: 5em;
+  text-align: center;
+  margin-top: 1em;
+}
+
+.headerBG {
+  width: 100% !important;
+  min-height: 65vh;
+  background-attachment: fixed;
+  background-image: url('../public/assets/logos/header.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gridStyle {
+  padding: 4em 4em !important;
+}
+
+.listStyle {
+  padding: 1em 1em !important
+}
+
+.serviceHeader {
+  display: grid !important;
+  grid-template-columns: 1fr !important;
+
+  
+}
+
+.carousel {
+  display: flex;
+  text-align: center;
+  min-height: 100%;
+  width: 95vw;
+  margin: auto;
+}
+
+.dot {
+  font-size: 1rem;
+  cursor: pointer;
+  padding-top: 15px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.previous {
+  transform: translateY(40%);
+  cursor: pointer;
+  font-size: 2rem;
+  padding-right: 10px;
+}
+
+.next {
+  transform: translateY(40%);
+  cursor: pointer;
+  font-size: 2rem;
+  padding-left: 10px;
+}

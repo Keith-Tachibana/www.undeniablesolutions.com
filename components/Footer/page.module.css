@@ -1,0 +1,15 @@
+.segmentStyle {
+    background-color: #000000 !important;
+}
+
+.footer {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+.paragraphText {
+  font-size: 1.5em !important;
+  color: var(--main-text-color) !important;
+}
