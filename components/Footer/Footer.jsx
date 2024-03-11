@@ -6,6 +6,7 @@ import styles from './page.module.css';
 import {
   Grid,
   Segment,
+  SegmentInline,
   Image,
   Icon,
   Container,
@@ -42,21 +43,22 @@ export default function Footer() {
                 <p className={styles.paragraphText}>
                   &copy; {getYear} Undeniable Solutions, LLC
                 </p>
+                <p className={styles.creditText}>Web design &amp; development by Keith Tachibana</p>
               </Grid.Column>
               <Grid.Column>
+                <p>E-mail Us:</p>
                 <a
                   href="mailto:webmaster@undeniablesolutions.com"
                   target="_blank"
                 >
-                  <Icon
-                    className={styles.footer}
-                    link
-                    circular
-                    inverted
-                    name="mail"
-                    size="big"
-                    color="green"
-                  />
+                <Icon
+                  link
+                  circular
+                  inverted
+                  name="mail"
+                  size="big"
+                  color="green"
+                />
                 </a>
               </Grid.Column>
             </Grid.Row>

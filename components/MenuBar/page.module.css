@@ -4,10 +4,9 @@
   align-items: center !important;
 }
 
-.desktopMenu,
-div.menuUl {
+.desktopMenu, .menuUl {
   display: flex !important;
-  justify-content: center !important;
+  justify-content: space-between !important;
 }
 
 .segmentStyle {
