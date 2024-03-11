@@ -12,7 +12,7 @@ import {
   Form,
   Button,
   Input
-} from semantic-ui-react;
+} from 'semantic-ui-react';
 
 function Contact = () => {
   return (
