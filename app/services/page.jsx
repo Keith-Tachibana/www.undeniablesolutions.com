@@ -1,5 +1,18 @@
-export default function Services() {
+'use client';
+
+import styles from './page.module.css';
+
+import {
+  Header,
+  Grid
+} from 'semantic-ui-react';
+
+const Services = () => {
   return (
-      <h1>Services</h1>
+    <Grid container>
+      <Header as="h1">Services</Header>
+    </Grid>
   );
 };
+
+export default Services;

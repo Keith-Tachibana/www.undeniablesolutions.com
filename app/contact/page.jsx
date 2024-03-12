@@ -1,21 +1,21 @@
 'use client';
 
-import { Image } from 'next/image';
-import { Link } from 'next/link';
+import Image from 'next/image';
+import Link from 'next/link';
+import styles from './page.module.css';
 
 import {
   Grid,
-  Segment,
   Container,
-  Table,
-  Header,
-  Form,
-  Button,
-  Input
+  Header
 } from 'semantic-ui-react';
 
-function Contact = () => {
+const Contact = () => {
   return (
-    <Header as="h1">Contact Us</Header>
+    <Grid container>
+      <Header as="h1">Contact Us</Header>
+    </Grid>
   );
 };
+
+export default Contact;

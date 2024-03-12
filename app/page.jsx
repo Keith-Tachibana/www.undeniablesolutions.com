@@ -29,28 +29,6 @@ const images = [
 ];
 
 export default class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      activeIndex: 0,
-      open: false,
-      active: false,
-      currentSlide: 0
-    };
-  }
-
-  setCurrentSlide = () => this.setState({ currentSlide: this.state.currentSlide + 1 });
-  setOpen = () => this.setState({ open: !this.state.open });
-
-  handleShow = () => this.setState({ active: true });d
-  handleHide = () => this.setState({ active: false });
-  handleClick = (event, titleProps) => {
-    const { index } = titleProps;
-    const { activeIndex } = this.state;
-    const newIndex = activeIndex === index ? -1 : index;
-    this.setState({ activeIndex: newIndex });
-  };
-
   render() {
     return (
       <main>
