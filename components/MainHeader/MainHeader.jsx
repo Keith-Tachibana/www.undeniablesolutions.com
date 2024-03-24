@@ -15,9 +15,6 @@ import {
 const MainHeader = () => {
   return (
     <Grid stackable className={styles.mainHeaderBG}>
-      <Header textAlign='center' as='h1'>
-        <p>UNDER CONSTRUCTION</p>
-      </Header>
       <Grid.Row>
         <Grid.Column >
           <div className={styles.headerStyle1}>
@@ -34,7 +31,10 @@ const MainHeader = () => {
           <Divider horizontal className={styles.dividerStyle}>
             <Link href="tel:18086403346" rel="noopener noreferrer" className={styles.phoneStyle}>
               <Icon link name="phone" inverted color="black" size="big" />
-              808-640-3346
+              <p>808-640-3346</p>
+              <Header textAlign='center' as='h1'>
+                <p>UNDER CONSTRUCTION</p>
+              </Header>
             </Link>
             <Image src="/assets/logos/undeniable-files-2.png" size="medium" alt="Undeniable Solutions logo" className={styles.imageStyle} />
           </Divider>
