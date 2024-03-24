@@ -5,6 +5,7 @@ import Typewriter from 'typewriter-effect';
 import styles from './page.module.css';
 
 import {
+  Header,
   Grid,
   Icon,
   Divider,
@@ -14,6 +15,9 @@ import {
 const MainHeader = () => {
   return (
     <Grid stackable className={styles.mainHeaderBG}>
+      <Header textAlign='center' as='h1'>
+        <p>UNDER CONSTRUCTION</p>
+      </Header>
       <Grid.Row>
         <Grid.Column >
           <div className={styles.headerStyle1}>
